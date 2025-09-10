@@ -18,11 +18,11 @@ const int controleServo9 = 9;
 const int controleServo7 = 7;
 const int controleServo6 = 6;
 
-// Inicia todos os servos na posição 2
-int pos8 = 2;
-int pos9 = 2;
-int pos7 = 2;
-int pos6 = 2;
+// Inicia todos os servos na posição 0
+int pos8 = 0;
+int pos9 = 0;
+int pos7 = 0;
+int pos6 = 0;
 
 const int angMinimo = 0;
 const int angMaximo = 180;
@@ -132,3 +132,4 @@ void loop() {
 
   delay(20);
 }
+
